@@ -28,12 +28,6 @@ export default class Filesystem {
 		return;
 	}
 
-	public static ReadTSConfig(): object {
-		const data = this.Read(Paths.TSConfig);
-
-		return data;
-	}
-
 	public static ReadRefrence(): Manifest {
 		const data = this.Read(Paths.Reference);
 
@@ -48,8 +42,13 @@ export default class Filesystem {
 		return;
 	}
 
+	public static ReadAddonTSConfig(): object {
+		const data = this.Read(Paths.TSConfig);
+
+		return data;
+	}
 	public static WriteAddonTSConfig(): void {
-		const tsconfig = this.ReadTSConfig();
+		const tsconfig = this.ReadAddonTSConfig();
 		const config = this.ReadConfig();
 
 		this.Write(config.output + "/tsconfig.json", tsconfig);

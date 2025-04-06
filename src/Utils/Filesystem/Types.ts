@@ -1,7 +1,7 @@
 export enum Paths {
 	Config = "lib/config.json",
 	Reference = "lib/reference.json",
-	TSConfig = "tsconfig.json",
+	TSConfig = "lib/tsconfig.json",
 }
 
 export type Config = {
