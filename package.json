@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"main": "dist/index.js",
 	"scripts": {
+		"build": "npm install && npx tsc && rm -rf dist",
 		"start": "rm -rf dist && npx tsc && node dist/index.js"
 	},
 	"keywords": [],
