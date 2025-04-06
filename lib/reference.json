@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "",
+		"description": "",
+		"min_engine_version": [1, 19, 50],
+		"uuid": "",
+		"version": []
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "",
+			"entry": "",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{ "module_name": "@minecraft/server", "version": "" },
+		{ "module_name": "@minecraft/server-ui", "version": "" },
+		{ "module_name": "@minecraft/server-net", "version": "" }
+	]
+}

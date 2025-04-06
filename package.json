@@ -1,0 +1,17 @@
+{
+	"name": "pack-generator",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "rm -rf dist && npx tsc && node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@types/node": "^22.14.0",
+		"colors": "^1.4.0",
+		"typescript": "^5.8.3"
+	}
+}
